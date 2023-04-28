@@ -1,6 +1,6 @@
 {
   "defaultSchema": "thelook",
-  "assertionSchema": "dataform_assertions",
+  "assertionSchema": "dataform_assertions1231",
   "warehouse": "bigquery",
   "defaultDatabase": "brendanlooker",
   "defaultLocation": "US",
