@@ -3,6 +3,9 @@
   "assertionSchema": "dataform_assertions",
   "warehouse": "bigquery",
   "defaultDatabase": "brendanlooker",
-  "defaultLocation": "US"
+  "defaultLocation": "US",
+  "schedule": {
+    "my_schedule": "0 1 * * *"
+  }
 }
     
