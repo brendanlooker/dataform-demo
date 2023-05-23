@@ -3,6 +3,6 @@
   "assertionSchema": "dataform_assertions1231123",
   "warehouse": "bigquery",
   "defaultDatabase": "brendanlooker",
-  "defaultLocation": "US",
+  "defaultLocation": "US"
 }
     
