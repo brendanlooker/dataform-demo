@@ -1,6 +1,6 @@
 
 config {
-  type: "view"
+  type: "table"
 }
 
 -- The rest of a SQLX file contains your SELECT statement used to create the table.
