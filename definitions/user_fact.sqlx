@@ -10,6 +10,6 @@ SELECT users.id, email, concat(first_name,' -- ',last_name) as name,
 sum(orders.sale_price) as lifetime_revenue, 
 count(distinct orders.id) as lifetime_orders,
 max(orders.created_at) as last_order_date
-from `brendanlooker.thelook.users_vw` users
-join `brendanlooker.thelook.order_items_vw` orders on users.id = orders.user_id
+from `${constants.PROJECT_ID}.thelook.users_vw` users
+join `${constants.PROJECT_ID}.thelook.order_items_vw` orders on users.id = orders.user_id
 group by 1,2,3
