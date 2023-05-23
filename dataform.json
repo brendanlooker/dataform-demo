@@ -1,5 +1,5 @@
 {
-  "defaultSchema": "thelook_dataform",
+  "defaultSchema": "thelook_dataform_test",
   "assertionSchema": "dataform_assertions1231123",
   "warehouse": "bigquery",
   "defaultDatabase": "brendanlooker",
