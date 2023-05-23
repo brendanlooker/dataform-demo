@@ -4,8 +4,5 @@
   "warehouse": "bigquery",
   "defaultDatabase": "brendanlooker",
   "defaultLocation": "US",
-  "schedule": {
-    "my_schedule": "0 1 * * *"
-  }
 }
     
