@@ -1,16 +1,8 @@
 
 config {
-  type: "view",
-  materialized: true
+  type: "table"
 }
 
--- The rest of a SQLX file contains your SELECT statement used to create the table.
 
 
-SELECT users.id, email, concat(first_name,' -- ',last_name) as name, 
-sum(orders.sale_price) as lifetime_revenue, 
-count(orders.id) as lifetime_orders,
-max(orders.created_at) as last_order_date
-from ${ref('users')} users
-join ${ref('order_items')} orders on users.id = orders.user_id
-group by 1,2,3
+SELECT * from ${ref('user_fact')}
