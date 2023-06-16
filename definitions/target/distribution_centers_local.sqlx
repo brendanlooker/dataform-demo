@@ -1,6 +1,0 @@
-config {
-  type: "table"
-}
-
-
-SELECT * from ${ref('distribution_centers')}

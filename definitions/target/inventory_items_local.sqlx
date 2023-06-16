@@ -1,6 +1,7 @@
 config {
-  type: "table"
+  type: "table",
+   tags: ["local"]
 }
 
 
-SELECT * from ${ref('inventory_items')}
+SELECT * from  ${constants.thelook_ecommerce_public}.inventory_items

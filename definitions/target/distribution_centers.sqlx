@@ -1,0 +1,8 @@
+config {
+  type: "table",
+   tags: ["local"]
+
+}
+
+
+SELECT * from  ${constants.thelook_ecommerce_public}.distribution_centers
