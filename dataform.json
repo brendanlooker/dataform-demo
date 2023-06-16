@@ -2,7 +2,7 @@
   "defaultSchema": "thelook_ecommerce",
   "assertionSchema": "dataform_demo_assertions",
   "warehouse": "bigquery",
-  "defaultDatabase": "brendanlooker",
+  "defaultDatabase": "bb-sandbox",
   "defaultLocation": "US"
 }
     
