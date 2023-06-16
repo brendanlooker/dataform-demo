@@ -1,5 +1,5 @@
 {
-  "defaultSchema": "dataform_demo",
+  "defaultSchema": "thelook_ecommerce",
   "assertionSchema": "dataform_demo_assertions",
   "warehouse": "bigquery",
   "defaultDatabase": "brendanlooker",
