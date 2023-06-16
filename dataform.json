@@ -1,5 +1,5 @@
 {
-  "defaultSchema": "ecommerce-retail",
+  "defaultSchema": "ecommerce_retail",
   "assertionSchema": "dataform_demo_assertions",
   "warehouse": "bigquery",
   "defaultDatabase": "bb-sandbox-371813",
