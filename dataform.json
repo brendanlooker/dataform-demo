@@ -1,8 +1,8 @@
 {
-  "defaultSchema": "thelook_ecommerce",
+  "defaultSchema": "ecommerce-retail",
   "assertionSchema": "dataform_demo_assertions",
   "warehouse": "bigquery",
-  "defaultDatabase": "bb-sandbox",
+  "defaultDatabase": "bb-sandbox-371813",
   "defaultLocation": "US"
 }
     
